@@ -1,0 +1,64 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Cache-Control": "no-cache",
+        "Vary": "Accept-Encoding",
+        "Set-Cookie": "ARRAffinity=eb84477166f47d484cded82ba6ca1e18a0ea1c936c886b3bf89aad7317ca8ca415134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DD726FA2BEEF790000001845355432; path=/; secure; HttpOnly,ReqClientId=7246cbca-c5fc-435b-866a-4aff55866f9d; expires=Wed, 03-Apr-2075 04:53:15 GMT; path=/; secure; HttpOnly,ARRAffinity=eb84477166f47d484cded82ba6ca1e18a0ea1c936c886b3bf89aad7317ca8ca415134d20c556b0b34b9b6ae43ec3f5dcdad61788de889ffc592af7aca85fc1c508DD726FA2BEEF790000001845355432; path=/; secure; HttpOnly",
+        "x-ms-service-request-id": "4d03997c-5f6e-4802-b4f1-3453526d4952",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "REQ_ID": "4d03997c-5f6e-4802-b4f1-3453526d4952",
+        "CRM.ServiceId": "CRMAppPool",
+        "AuthActivityId": "df909909-87cb-4eff-a4fa-ab2011d6ef46",
+        "x-ms-dop-hint": "4",
+        "x-ms-ratelimit-time-remaining-xrm-requests": "1,200.00",
+        "x-ms-ratelimit-burst-remaining-xrm-requests": "7999",
+        "mise-correlation-id": "85e6869e-ea21-4905-98ab-fa53fb0d0583",
+        "X-Content-Type-Options": "nosniff",
+        "OData-Version": "4.0",
+        "X-Source": "13124511222715620253135114351653725016585144123240482151403934242558895923079229,13124511222715620253135114351653725016585144123240482151403934242558895923079229",
+        "Public": "OPTIONS,GET,HEAD,POST",
+        "Date": "Thu, 03 Apr 2025 04:53:15 GMT",
+        "Allow": "OPTIONS,GET,HEAD,POST",
+        "Content-Type": "application/json; odata.metadata=minimal",
+        "Expires": "-1",
+        "Content-Length": "982"
+    },
+    "body": {
+        "@odata.context": "https://orgff86995b.crm7.dynamics.com/api/data/v9.1/$metadata#Microsoft.Dynamics.CRM.PredictResponse",
+        "responsev2": {
+            "@odata.type": "#Microsoft.Dynamics.CRM.expando",
+            "operationStatus": "Success",
+            "predictionId": "60a93dbb-2b8c-4bd5-b727-9e9b18e8d45b",
+            "predictionOutput": {
+                "@odata.type": "#Microsoft.Dynamics.CRM.expando",
+                "result": {
+                    "@odata.type": "#Microsoft.Dynamics.CRM.expando",
+                    "sentiment": "positive",
+                    "documentScores": {
+                        "@odata.type": "#Microsoft.Dynamics.CRM.expando",
+                        "positive": 0.98,
+                        "neutral": 0.02,
+                        "negative": 0
+                    },
+                    "sentences@odata.type": "#Collection(Microsoft.Dynamics.CRM.crmbaseentity)",
+                    "sentences": [
+                        {
+                            "@odata.type": "#Microsoft.Dynamics.CRM.expando",
+                            "sentiment": "positive",
+                            "offset@odata.type": "#Int64",
+                            "offset": 0,
+                            "length@odata.type": "#Int64",
+                            "length": 31,
+                            "sentenceScores": {
+                                "@odata.type": "#Microsoft.Dynamics.CRM.expando",
+                                "positive": 0.98,
+                                "neutral": 0.02,
+                                "negative": 0
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
