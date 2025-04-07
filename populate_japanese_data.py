@@ -64,3 +64,25 @@ while current_date <= end_date:
 conn.commit()
 conn.close()
 print("Japanese dummy data added for Jan 2024 – Mar 2025!")
+
+{
+    "body": {
+        "@odata.context": "https://orgff86995b.crm7.dynamics.com/api/data/v9.1/$metadata#Microsoft.Dynamics.CRM.PredictResponse",
+        "responsev2": {
+            "@odata.type": "#Microsoft.Dynamics.CRM.expando",
+            "operationStatus": "Success",
+            "predictionId": "ae71e167-f09c-484e-8a38-24baffe9c67a",
+            "predictionOutput": {
+                "@odata.type": "#Microsoft.Dynamics.CRM.expando",
+                "results@odata.type": "#Collection(Microsoft.Dynamics.CRM.crmbaseentity)",
+                "results": [
+                    {
+                        "@odata.type": "#Microsoft.Dynamics.CRM.expando",
+                        "language": "en",
+                        "score": 1
+                    }
+                ]
+            }
+        }
+    }
+}
