@@ -29,9 +29,9 @@ comments = [
 ]
 
 # Generate data for Jan 2024 to Mar 2025
-start_year = 2024
+start_year = 2025
 end_year = 2025
-end_month = 3
+end_month = 5
 
 for year in range(start_year, end_year + 1):
     month_range = range(1, 13) if year < end_year else range(1, end_month + 1)
@@ -56,4 +56,4 @@ for year in range(start_year, end_year + 1):
 conn.commit()
 conn.close()
 
-print("Database populated with dummy data from Jan 2024 to Mar 2025.")
+print("Database populated with dummy data from Jan 2025 to May 2025.")
